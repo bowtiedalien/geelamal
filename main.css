@@ -1,0 +1,136 @@
+/* @media (max-width:1025px){
+  /*mobile phones*/
+  html{
+    text-align: center;
+    background-color: #FFFAFA;
+  }
+  .container{
+    width:80%;
+    margin-left:2em;
+    margin-right:2em;
+    padding-top: 30%;
+    text-align: center;
+
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-areas:
+    "topLeft topCenter topRight"
+    "centerLeft centerCenter centerRight"
+    "bottomLeft bottomCenter bottomRight"
+    "a backButton b"; */
+    grid-template-areas:
+    "topLeft topRight"
+    "centerLeft centerRight"
+    "bottomLeft bottomRight"
+    "a backButton";
+    /* grid-gap: 10px; */
+  }
+  button[type=button]{
+    /* display: inline-block; */
+    /* width: 250px; */
+    /* height: 250px; */
+    text-align: center;
+
+    /* margin-top: 10%; */
+    font-size: 4em;
+    /* background-color: #bb0a21; */
+
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    transform-style: preserve-3d;
+    transition: all 175ms cubic-bezier(0, 0, 1, 1);
+    border-radius: 1em;
+    border: 2px solid #eeee;
+    padding: 1em 2em;
+    cursor: pointer;
+  }
+  button:hover {
+  background: white;
+  transform: translate(0, 0.375em);
+}
+button[name=back]{
+  font-size:3em;
+}
+
+  #btnWorksheets{
+    grid-area: centerLeft;
+  }
+  #btnGrades{
+    grid-area: topLeft;
+  }
+  #btnGoToMainPage{
+    grid-area: backButton;
+  }
+
+  /*Grades.html*/
+  .gradesContainer{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  /* padding-top: 60%; */
+  text-align: center;
+  }
+  .gradesContainer > h1{
+    font-size: 5em;
+  }
+  .gradesContainer > h2{
+    font-size: 3em;
+    color: red;
+  }
+  button[name="button"]{
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    transform-style: preserve-3d;
+    transition: all 175ms cubic-bezier(0, 0, 1, 1);
+    border-radius: 1em;
+    border: 2px solid #eeee;
+    padding: 1em 2em;
+    cursor: pointer;
+  }
+
+  /* Questions.html */
+  .QuestionsContainer{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .QuestionsContainer .image-grid{
+  /* padding-top: 60%; */
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  }
+  .image-grid > img{
+    width: 100%;
+  }
+  .QuestionsContainer > h1{
+    font-size: 5em;
+  }
+  .QuestionsContainer > h2{
+    font-size: 3em;
+    color: red;
+  }
+/* } */
+
+@media (min-width:1025px) {
+/* big landscape tablets, laptops, and desktops */
+  button[name=button]{
+    font-size: 1em;
+  }
+  button[name=back]{
+    font-size: 1em;
+  }
+  .container{
+    width:80%;
+    margin-left:2em;
+    margin-right:2em;
+    padding-top: 10%;
+}

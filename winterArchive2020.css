@@ -1,0 +1,45 @@
+body{
+  align-text: center;
+  background-color: #FFFAFA;
+}
+.container{
+  padding-top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  display: block;
+}
+button[type=button]{
+  width: 90%;
+  margin-bottom: 1em;
+  font-size: 4em;
+}
+
+button[type="button"]{
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  transform-style: preserve-3d;
+  transition: all 175ms cubic-bezier(0, 0, 1, 1);
+  border-radius: 1em;
+  border: 2px solid #eeee;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+@media (min-width:1025px) {
+/* big landscape tablets, laptops, and desktops */
+  .container{
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    display: block;
+  }
+  button[type=button]{
+    width: 90%;
+    margin-bottom: 1em;
+    font-size: 2em;
+  }
+}
