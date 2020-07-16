@@ -27,13 +27,15 @@ button[type="button"]{
   padding: 1em 2em;
   cursor: pointer;
 }
+button:hover {
+background: white;
+transform: translate(0, 0.375em);
+}
 
 @media (min-width:1025px) {
 /* big landscape tablets, laptops, and desktops */
   .container{
     padding-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
     width: 55%;
     display: block;
   }
@@ -41,5 +43,8 @@ button[type="button"]{
     width: 90%;
     margin-bottom: 1em;
     font-size: 2em;
+  }
+  button[name=btnBack]{
+    width: 40%;
   }
 }
