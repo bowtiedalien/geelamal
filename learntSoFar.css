@@ -7,11 +7,11 @@ body{
 }
 .media{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   /* grid-gap: 20px; */
-  text-align: center;
+  /* text-align: center;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .media > img{
   width: 40%;
