@@ -22,8 +22,11 @@ body{
   h2{
     color: #707070;
   }
-a{
+a.slides{
   background-color: yellow;
+}
+a{
+  color: blue;
 }
 
 button[name="button"]{
